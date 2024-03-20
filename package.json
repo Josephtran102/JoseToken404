@@ -1,0 +1,25 @@
+{
+  "name": "token404",
+  "version": "1.0.0",
+  "description": "npm init -y # Step 2: Install Hardhat npm install --save-dev hardhat # Step 3: Initialize a Hardhat project npx hardhat init # Step 4: Install other Packages npm install --save-dev @openzeppelin/contracts dotenv # Step 5: Set environmental variables echo > .env     HTTP_PROVIDER_URL=\"YOUR_QUICKNODE_ENDPOINT_HTTP_URL\"     PRIVATE_KEY=\"YOUR_WALLET_PRIVATE_KEY\" # Step 6: Set Hardhat configuration # Step 7: Set TypeScript configuration",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.20.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0"
+  }
+}
